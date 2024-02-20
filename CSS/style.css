@@ -1,0 +1,28 @@
+figure {
+    gap:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figure img {
+    max-width:100%;
+    max-height:200px;
+    border-radius:50%;
+    flex: 0 20%;
+}
+
+figcaption {
+    flex: 0 50%;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+font-size: 28px;
+}
+main#main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#image{
+    max-width: 100%;
+}
